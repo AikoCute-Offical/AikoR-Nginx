@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/cubicdaiya/nginx-build/builder"
-	"github.com/cubicdaiya/nginx-build/module3rd"
+	"github.com/AikoCute-Offical/AikoR-Nginx/builder"
+	"github.com/AikoCute-Offical/AikoR-Nginx/module3rd"
 )
 
 func Generate(configure string, modules3rd []module3rd.Module3rd, dependencies []builder.StaticLibrary, options Options, rootDir string, openResty bool, jobs int) string {

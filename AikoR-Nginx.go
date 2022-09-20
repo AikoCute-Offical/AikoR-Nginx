@@ -10,11 +10,11 @@ import (
 	"sync"
 	"syscall"
 
-	"github.com/cubicdaiya/nginx-build/builder"
-	"github.com/cubicdaiya/nginx-build/command"
-	"github.com/cubicdaiya/nginx-build/configure"
-	"github.com/cubicdaiya/nginx-build/module3rd"
-	"github.com/cubicdaiya/nginx-build/util"
+	"github.com/AikoCute-Offical/AikoR-Nginx/builder"
+	"github.com/AikoCute-Offical/AikoR-Nginx/command"
+	"github.com/AikoCute-Offical/AikoR-Nginx/configure"
+	"github.com/AikoCute-Offical/AikoR-Nginx/module3rd"
+	"github.com/AikoCute-Offical/AikoR-Nginx/util"
 )
 
 var (

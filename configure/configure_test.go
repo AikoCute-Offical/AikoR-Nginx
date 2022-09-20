@@ -5,8 +5,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/cubicdaiya/nginx-build/builder"
-	"github.com/cubicdaiya/nginx-build/module3rd"
+	"github.com/AikoCute-Offical/AikoR-Nginx/builder"
+	"github.com/AikoCute-Offical/AikoR-Nginx/module3rd"
 )
 
 func setupBuilders(t *testing.T) []builder.Builder {

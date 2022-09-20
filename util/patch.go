@@ -7,7 +7,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/cubicdaiya/nginx-build/command"
+	"github.com/AikoCute-Offical/AikoR-Nginx/command"
 )
 
 var (

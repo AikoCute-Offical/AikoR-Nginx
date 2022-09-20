@@ -1,3 +1,3 @@
-module github.com/cubicdaiya/nginx-build
+module github.com/AikoCute-Offical/AikoR-Nginx
 
 go 1.18

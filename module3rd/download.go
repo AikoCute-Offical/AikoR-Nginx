@@ -6,8 +6,8 @@ import (
 	"log"
 	"os"
 
-	"github.com/cubicdaiya/nginx-build/command"
-	"github.com/cubicdaiya/nginx-build/util"
+	"github.com/AikoCute-Offical/AikoR-Nginx/command"
+	"github.com/AikoCute-Offical/AikoR-Nginx/util"
 )
 
 func DownloadAndExtractParallel(m Module3rd) {

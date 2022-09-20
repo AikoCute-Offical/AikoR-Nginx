@@ -5,7 +5,7 @@ import (
 	"log"
 	"os"
 
-	"github.com/cubicdaiya/nginx-build/command"
+	"github.com/AikoCute-Offical/AikoR-Nginx/command"
 )
 
 func PrintFatalMsg(err error, path string) {

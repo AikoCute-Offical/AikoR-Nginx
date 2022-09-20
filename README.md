@@ -2,7 +2,7 @@
 
 `nginx-build` - provides a command to build nginx seamlessly.
 
-![gif](https://raw.githubusercontent.com/cubicdaiya/nginx-build/master/images/nginx-build.gif)
+![gif](https://raw.githubusercontent.com/AikoCute-Offical/AikoR-Nginx/master/images/nginx-build.gif)
 
 ## Requirements
 
@@ -18,7 +18,7 @@
 ## Installation
 
 ```bash
-go install github.com/cubicdaiya/nginx-build@latest
+go install github.com/AikoCute-Offical/AikoR-Nginx@latest
 ```
 
 ## Quick Start

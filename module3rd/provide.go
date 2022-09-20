@@ -5,8 +5,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/cubicdaiya/nginx-build/command"
-	"github.com/cubicdaiya/nginx-build/util"
+	"github.com/AikoCute-Offical/AikoR-Nginx/command"
+	"github.com/AikoCute-Offical/AikoR-Nginx/util"
 )
 
 func Provide(m *Module3rd) error {

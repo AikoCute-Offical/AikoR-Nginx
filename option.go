@@ -4,7 +4,7 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/cubicdaiya/nginx-build/builder"
+	"github.com/AikoCute-Offical/AikoR-Nginx/builder"
 )
 
 type Options struct {

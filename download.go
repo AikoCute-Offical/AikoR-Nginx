@@ -8,9 +8,9 @@ import (
 	"os"
 	"time"
 
-	"github.com/cubicdaiya/nginx-build/builder"
-	"github.com/cubicdaiya/nginx-build/command"
-	"github.com/cubicdaiya/nginx-build/util"
+	"github.com/AikoCute-Offical/AikoR-Nginx/builder"
+	"github.com/AikoCute-Offical/AikoR-Nginx/command"
+	"github.com/AikoCute-Offical/AikoR-Nginx/util"
 )
 
 const DefaultDownloadTimeout = time.Duration(900) * time.Second

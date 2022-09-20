@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/cubicdaiya/nginx-build/builder"
+	"github.com/AikoCute-Offical/AikoR-Nginx/builder"
 )
 
 func versionsGenNginx() []string {

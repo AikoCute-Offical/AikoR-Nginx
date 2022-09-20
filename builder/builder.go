@@ -6,8 +6,8 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/cubicdaiya/nginx-build/command"
-	"github.com/cubicdaiya/nginx-build/openresty"
+	"github.com/AikoCute-Offical/AikoR-Nginx/command"
+	"github.com/AikoCute-Offical/AikoR-Nginx/openresty"
 )
 
 type Builder struct {
