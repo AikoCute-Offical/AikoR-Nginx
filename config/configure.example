@@ -28,7 +28,6 @@
 --with-ipv6 \
 --with-sha1=/usr/include/openssl \
 --with-md5=/usr/include/openssl \
---with-http_spdy_module \
 --with-pcre \
 --with-pcre-jit \
 --with-debug
