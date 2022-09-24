@@ -1,4 +1,4 @@
-name: Test
+name: Build
 
 on: [push]
 jobs:
@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build Nginx
-        run: /build/aiko.sh
+        run: bash <(curl -Ls https://raw.githubusercontent.com/AikoCute-Offical/AikoR-Nginx/master/build/aiko.sh)
