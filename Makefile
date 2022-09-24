@@ -1,6 +1,6 @@
 export GO111MODULE=on
 
-nginx-build: *.go builder/*.go command/*.go configure/*.go module3rd/*.go openresty/*.go util/*.go
+aikor-nginx: *.go builder/*.go command/*.go configure/*.go module3rd/*.go openresty/*.go util/*.go
 	go build -ldflags "-X main.NginxBuildVersion=`git rev-list HEAD -n1`" -o $@
 
 build-example: nginx-build

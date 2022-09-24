@@ -44,7 +44,7 @@ func printConfigureOptions() error {
 }
 
 func printFirstMsg() {
-	fmt.Printf(`nginx-build: %s
+	fmt.Printf(`AikoR-Nginx: %s
 Compiler: %s %s
 `,
 		nginxBuildVersion(),
