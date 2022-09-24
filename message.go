@@ -26,7 +26,7 @@ func nginxBuildVersion() string {
 }
 
 func printNginxBuildVersion() {
-	fmt.Printf(`nginx-build %s
+	fmt.Printf(`AikoR-Nginx %s
 Compiler: %s %s
 Copyright (C) 2014-2022 Tatsuhiko Kubo <cubicdaiya@gmail.com>
 `,
