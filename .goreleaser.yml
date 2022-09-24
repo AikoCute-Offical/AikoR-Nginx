@@ -12,8 +12,6 @@ builds:
       - amd64
       - arm64
       - s390x
-      - arm/v7
-      - arm/v8 # macos
 archives:
   - name_template: '{{ .ProjectName }}-{{ .Os }}-{{ .Arch }}-{{ .Version }}'
 release:
