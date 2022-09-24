@@ -28,7 +28,8 @@ func nginxBuildVersion() string {
 func printNginxBuildVersion() {
 	fmt.Printf(`AikoR-Nginx %s
 Compiler: %s %s
-Copyright (C) 2014-2022 Tatsuhiko Kubo <cubicdaiya@gmail.com>
+AikoR-Nginx is Connected With AikoR
+Copyright (C) 2021-2022 AikoCuteHotMe  <aikocute@icloud.com>
 `,
 		nginxBuildVersion(),
 		runtime.Compiler,
@@ -46,6 +47,7 @@ func printConfigureOptions() error {
 func printFirstMsg() {
 	fmt.Printf(`AikoR-Nginx: %s
 Compiler: %s %s
+AikoR-Nginx is Connected With AikoR
 `,
 		nginxBuildVersion(),
 		runtime.Compiler,
