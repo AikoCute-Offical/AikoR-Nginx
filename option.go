@@ -62,7 +62,7 @@ func makeNginxBuildOptions() Options {
 		Desc: "remove entries in working directory",
 	}
 	argsBool["version"] = OptionBool{
-		Desc: "print nginx-build version",
+		Desc: "print aikor-nginx version",
 	}
 	argsBool["versions"] = OptionBool{
 		Desc: "print nginx versions",

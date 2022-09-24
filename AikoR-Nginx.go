@@ -435,7 +435,7 @@ func main() {
 	if err != nil {
 		log.Printf("Failed to build %s\n", nginxBuilder.SourcePath())
 		util.Patch(*patchPath, *patchOption, rootDir, true)
-		util.PrintFatalMsg(err, "nginx-build.log")
+		util.PrintFatalMsg(err, "aikor-nginx.log")
 	}
 
 	printLastMsg(workDir, nginxBuilder.SourcePath(), *openResty, *configureOnly)

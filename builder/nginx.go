@@ -14,7 +14,7 @@ func BuildNginx(jobs int) error {
 		return command.Run(args)
 	}
 
-	f, err := os.Create("nginx-build.log")
+	f, err := os.Create("aikor-nginx.log")
 	if err != nil {
 		return command.Run(args)
 	}

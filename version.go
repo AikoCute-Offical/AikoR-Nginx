@@ -38,6 +38,6 @@ func printNginxVersions() {
 func versionCheck(version string) {
 	if len(version) == 0 {
 		log.Println("[warn]nginx version is not set.")
-		log.Printf("[warn]nginx-build use %s.\n", builder.NginxVersion)
+		log.Printf("[warn]aikor-nginx use %s.\n", builder.NginxVersion)
 	}
 }

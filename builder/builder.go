@@ -101,7 +101,7 @@ func (builder *Builder) IsIncludeWithOption(nginxConfigure string) bool {
 }
 
 func (builder *Builder) WarnMsgWithLibrary() string {
-	return fmt.Sprintf("[warn]Using '%s' is discouraged. Instead give '-%s' and '-%sversion' to 'nginx-build'",
+	return fmt.Sprintf("[warn]Using '%s' is discouraged. Instead give '-%s' and '-%sversion' to 'aikor-nginx'",
 		builder.option(), builder.name(), builder.name())
 }
 
