@@ -1,8 +1,8 @@
-project_name: AikoR-Nginx
+project_name: aikor-nginx
 env:
   - GO111MODULE=on
 builds:
-  - binary: AikoR-Nginx
+  - binary: aikor-nginx
     ldflags:
       - -s -w
       - -X main.NginxBuildVersion={{.Version}}
@@ -11,6 +11,9 @@ builds:
     goarch:
       - amd64
       - arm64
+      - s390x
+      - arm/v7
+      - arm/v8 # macos
 archives:
   - name_template: '{{ .ProjectName }}-{{ .Os }}-{{ .Arch }}-{{ .Version }}'
 release:

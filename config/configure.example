@@ -1,10 +1,9 @@
 #!/bin/sh
-
 ./configure \
---sbin-path=/usr/sbin/nginx \
---conf-path=/etc/AikoR-Nginx/config/nginx.conf \
---pid-path=/etc/AikoR-Nginx/logs/nginx.pid \
---lock-path=/etc/AikoR-Nginx/logs/nginx.lock \
+--sbin-path=/usr/sbin/aikor-nginx \
+--conf-path=/etc/AikoR-Nginx/config/aikor-nginx.conf \
+--pid-path=/etc/AikoR-Nginx/logs/aikor-nginx.pid \
+--lock-path=/etc/AikoR-Nginx/logs/aikor-nginx.lock \
 --error-log-path=/etc/AikoR-Nginx/logs/error.log \
 --http-log-path=/etc/AikoR-Nginx/logs/access.log \
 --with-http_ssl_module \
