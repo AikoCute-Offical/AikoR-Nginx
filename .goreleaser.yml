@@ -13,6 +13,6 @@ builds:
       - arm64
       - s390x
 archives:
-  - name_template: '{{ .ProjectName }}-{{ .Os }}-{{ .Arch }}-{{ .Version }}'
+  - name_template: '{{ .ProjectName }}-{{ .Os }}-{{ .Arch }}-v{{ .Version }}'
 release:
   prerelease: auto
